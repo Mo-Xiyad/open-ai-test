@@ -32,7 +32,7 @@ export function Main() {
 
   return (
     <div className="bg-slate-300 rounded-lg shadow-lg p-6">
-      <h2 className="text-2xl font-bold mb-4">OpenAI Text Generator</h2>
+      <h2 className="text-2xl font-bold mb-4">Text Generator</h2>
       <div className="flex flex-col overflow-y-scroll">
         {responses.map((response, index) => (
           <p
